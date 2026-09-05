@@ -905,3 +905,123 @@
     -6px 7px 0 -1px var(--color-magenta),
     -6px 7px 0 0 var(--color-ink);
 }
+
+/* Moldura inspirada nas cartinhas de adoção da identidade do projeto. */
+.hero-visual--portrait {
+  height: auto;
+  min-width: 0;
+  display: grid;
+  place-items: center;
+  padding: 24px 22px 34px;
+}
+
+.hero-visual--portrait .hero-image-frame {
+  position: relative;
+  inset: auto;
+  width: min(480px, 100%);
+  margin: 0;
+  padding: 13px 13px 0;
+  background: var(--color-paper);
+  border: 1.5px solid var(--color-ink);
+  border-radius: var(--radius-sm);
+  box-shadow:
+    10px 12px 0 -1px var(--color-magenta),
+    10px 12px 0 0 var(--color-ink);
+  transform: rotate(2deg);
+  overflow: visible;
+}
+
+.hero-photo-window {
+  aspect-ratio: 12 / 13;
+  overflow: hidden;
+  border: 1px solid var(--color-ink);
+  border-radius: var(--radius-sm);
+  background: var(--color-aqua-soft);
+}
+
+.hero-visual--portrait .hero-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  object-fit: cover;
+  object-position: center top;
+  transform: scale(1.1);
+  transform-origin: 50% 12%;
+}
+
+.hero-portrait-caption {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 78px;
+  padding: 12px 8px;
+  color: var(--color-ink);
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-style: italic;
+  line-height: 1.2;
+}
+
+.hero-portrait-caption small {
+  display: block;
+  margin-top: 6px;
+  color: var(--color-muted);
+  font-family: var(--font-body);
+  font-size: 11px;
+  font-style: normal;
+}
+
+.hero-portrait-caption > svg {
+  flex-shrink: 0;
+  color: var(--color-magenta);
+}
+
+.hero-visual--portrait .hero-doodle-heart {
+  top: 0;
+  right: 2px;
+}
+
+@media (min-width: 701px) and (max-width: 1150px) {
+  .hero-visual--portrait {
+    padding: 24px 14px 34px;
+  }
+
+  .hero-visual--portrait .hero-image-frame {
+    width: min(390px, 100%);
+    padding: 10px 10px 0;
+  }
+
+  .hero-portrait-caption {
+    min-height: 68px;
+    padding: 12px 2px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .hero-visual--portrait {
+    padding: 12px 10px 30px;
+  }
+
+  .hero-visual--portrait .hero-image-frame {
+    width: 100%;
+    padding: 10px 10px 0;
+    transform: rotate(2deg);
+    box-shadow:
+      7px 9px 0 -1px var(--color-magenta),
+      7px 9px 0 0 var(--color-ink);
+  }
+
+  .hero-portrait-caption {
+    min-height: 70px;
+    padding: 12px 4px;
+    font-size: 20px;
+  }
+
+  .hero-visual--portrait .hero-doodle-heart {
+    top: -8px;
+    right: -6px;
+  }
+}

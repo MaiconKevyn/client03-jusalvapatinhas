@@ -6,9 +6,17 @@ A identidade atual segue a referência de magenta, turquesa e menta fornecida pe
 
 As seis imagens JPG nesta pasta orientam a composição. A referência PawJoy foi a principal influência para a paleta creme/sálvia/coral e a tipografia editorial. As outras referências contribuíram com recortes orgânicos, detalhes de patinhas, fotografias de cães e gatos e uma navegação clara. Nenhuma página foi usada como uma imagem de fundo da interface.
 
-## Hero original
+## Foto principal atual
 
-- Arquivo usado pelo site: `public/images/hero-pets.png`.
+- Arquivo usado pelo site: `public/images/hero-ju-dogs.png` (1080 × 1148, PNG com canal alfa).
+- Foto real escolhida pelo cliente: Ju com dois cachorros no colo.
+- Fonte original sem as setas do Instagram: `instagram_tool/downloads/DEtNzeCO_2o/2025-01-12_01-06-43_UTC_2.jpg`, no diretório pai do projeto.
+- Fundo removido localmente com Apple Vision, com autorização do cliente em 5 de setembro de 2026. Máscara refinada com CoreGraphics, enquadramento e redução para uso na web; pessoa e animais preservam a fotografia original.
+- Duas tentativas anteriores de edição pela ferramenta imagegen retornaram um quadriculado sem transparência real e foram descartadas. A imagem publicada no site é o recorte local.
+
+## Hero original (fora de uso)
+
+- Arquivo histórico: `public/images/hero-pets.png` (substituído pela foto real).
 - Criado com a ferramenta integrada imagegen, em 4 de setembro de 2026.
 - Fotografia gerada para fins ilustrativos; não retrata animais reais da ONG.
 - O original gerado foi copiado para o projeto, sem depender de caminhos externos.
@@ -25,7 +33,7 @@ A galeria usa 121 fotografias de 120 animais, extraídas dos posts fornecidos em
 
 ## Fotografias ilustrativas da primeira versão
 
-Imagens do Unsplash armazenadas localmente para não depender de downloads externos durante a navegação. As seis fotos de demonstração da galeria foram retiradas de uso. A seção institucional ainda usa `our-story.jpg`, identificada como ilustrativa no texto alternativo. O hero também permanece ilustrativo. Nenhuma dessas imagens representa um perfil de adoção real.
+Imagens do Unsplash armazenadas localmente para não depender de downloads externos durante a navegação. As seis fotos de demonstração da galeria foram retiradas de uso. A seção institucional ainda usa `our-story.jpg`, identificada como ilustrativa no texto alternativo. Nenhuma dessas imagens representa um perfil de adoção real.
 
 | Arquivo         | Origem                                                       |
 | --------------- | ------------------------------------------------------------ |

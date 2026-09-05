@@ -54,19 +54,27 @@ export function Hero() {
             </span>
           </div>
         </div>
-        <div className="hero-visual">
+        <div className="hero-visual hero-visual--portrait">
           <BrandRibbon />
-          <div className="hero-image-frame">
-            <img
-              className="hero-image"
-              src="/images/hero-pets.png"
-              alt="Cão caramelo com um lenço verde sentado ao lado de um gatinho"
-              fetchPriority="high"
-              width="1536"
-              height="1024"
-            />
-            <span className="hero-photo-caption">amor de quatro patas.</span>
-          </div>
+          <figure className="hero-image-frame">
+            <div className="hero-photo-window">
+              <img
+                className="hero-image"
+                src="/images/hero-ju-dogs.png"
+                alt="Ju sorrindo e segurando dois cachorros no colo"
+                fetchPriority="high"
+                width="1080"
+                height="1148"
+              />
+            </div>
+            <figcaption className="hero-portrait-caption">
+              <span>
+                Ju e seus resgatados
+                <small>Porto Alegre, RS</small>
+              </span>
+              <PawPrint size={28} strokeWidth={1.4} aria-hidden="true" />
+            </figcaption>
+          </figure>
           <Heart
             className="hero-doodle hero-doodle-heart"
             size={47}
@@ -86,14 +94,6 @@ export function Hero() {
               strokeLinecap="round"
             />
           </svg>
-          <div className="hero-note">
-            <Heart size={20} strokeWidth={1.5} />
-            <span>
-              O seu melhor amigo
-              <br />
-              pode estar aqui.
-            </span>
-          </div>
         </div>
       </div>
       <a className="hero-scroll" href="#adote" aria-label="Conhecer os animais">
