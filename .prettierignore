@@ -4,3 +4,5 @@ artifacts
 docs/*.jpg
 public/images
 package-lock.json
+
+.astro
