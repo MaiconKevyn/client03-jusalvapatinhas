@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="380" viewBox="0 0 1120 380" role="img" aria-labelledby="title desc">
+<title id="title">Paleta Ju Salva Patinhas</title><desc id="desc">Magenta C21D62, turquesa 20ADBA, menta E6EDE8, petróleo 086D77, grafite 273133 e papel F8FAF7.</desc>
+<rect width="1120" height="380" rx="12" fill="#F8FAF7"/>
+<text x="36" y="56" font-family="Georgia,serif" font-size="32" fill="#273133">Ju Salva Patinhas</text>
+<text x="36" y="86" font-family="Arial,sans-serif" font-size="14" fill="#566365">Paleta de identidade · cores da referência convertidas para sRGB</text>
+<rect x="36" y="120" width="162" height="150" rx="8" fill="#C21D62" stroke="#273133" stroke-width="1"/>
+<text x="50" y="247" font-family="Arial,sans-serif" font-size="17" fill="#F8FAF7">#C21D62</text>
+<text x="36" y="301" font-family="Georgia,serif" font-size="22" fill="#273133">Magenta</text>
+<text x="36" y="326" font-family="Arial,sans-serif" font-size="12" fill="#566365">Ações principais</text>
+<rect x="212" y="120" width="162" height="150" rx="8" fill="#20ADBA" stroke="#273133" stroke-width="1"/>
+<text x="226" y="247" font-family="Arial,sans-serif" font-size="17" fill="#273133">#20ADBA</text>
+<text x="212" y="301" font-family="Georgia,serif" font-size="22" fill="#273133">Turquesa</text>
+<text x="212" y="326" font-family="Arial,sans-serif" font-size="12" fill="#566365">Faixas e detalhes</text>
+<rect x="388" y="120" width="162" height="150" rx="8" fill="#E6EDE8" stroke="#273133" stroke-width="1"/>
+<text x="402" y="247" font-family="Arial,sans-serif" font-size="17" fill="#273133">#E6EDE8</text>
+<text x="388" y="301" font-family="Georgia,serif" font-size="22" fill="#273133">Menta</text>
+<text x="388" y="326" font-family="Arial,sans-serif" font-size="12" fill="#566365">Fundo da identidade</text>
+<rect x="564" y="120" width="162" height="150" rx="8" fill="#086D77" stroke="#273133" stroke-width="1"/>
+<text x="578" y="247" font-family="Arial,sans-serif" font-size="17" fill="#F8FAF7">#086D77</text>
+<text x="564" y="301" font-family="Georgia,serif" font-size="22" fill="#273133">Petróleo</text>
+<text x="564" y="326" font-family="Arial,sans-serif" font-size="12" fill="#566365">Links e controles</text>
+<rect x="740" y="120" width="162" height="150" rx="8" fill="#273133" stroke="#273133" stroke-width="1"/>
+<text x="754" y="247" font-family="Arial,sans-serif" font-size="17" fill="#F8FAF7">#273133</text>
+<text x="740" y="301" font-family="Georgia,serif" font-size="22" fill="#273133">Grafite</text>
+<text x="740" y="326" font-family="Arial,sans-serif" font-size="12" fill="#566365">Texto e contornos</text>
+<rect x="916" y="120" width="162" height="150" rx="8" fill="#F8FAF7" stroke="#273133" stroke-width="1"/>
+<text x="930" y="247" font-family="Arial,sans-serif" font-size="17" fill="#273133">#F8FAF7</text>
+<text x="916" y="301" font-family="Georgia,serif" font-size="22" fill="#273133">Papel</text>
+<text x="916" y="326" font-family="Arial,sans-serif" font-size="12" fill="#566365">Superfícies claras</text>
+</svg>

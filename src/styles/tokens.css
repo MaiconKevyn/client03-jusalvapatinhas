@@ -1,0 +1,22 @@
+:root {
+  --color-paper: #f8faf7;
+  --color-canvas: #e6ede8;
+  --color-ink: #273133;
+  --color-muted: #566365;
+  --color-turquoise: #20adba;
+  --color-teal-dark: #086d77;
+  --color-teal-hover: #07555e;
+  --color-mint: #e6ede8;
+  --color-aqua-soft: #d8f0f1;
+  --color-magenta: #c21d62;
+  --color-pink-soft: #f7e5ec;
+  --color-action: var(--color-magenta);
+  --color-magenta-hover: #a11650;
+  --color-line: #c5d1ce;
+  --font-body: 'DM Sans', sans-serif;
+  --font-display: 'Fraunces', Georgia, serif;
+  --radius-sm: 8px;
+  --radius-card: 12px;
+  --radius-pill: 999px;
+  --page-width: 1200px;
+}

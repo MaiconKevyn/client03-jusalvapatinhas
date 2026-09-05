@@ -1,0 +1,185 @@
+.catalog-statuses {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+  border-bottom: 1px solid var(--color-line);
+  margin-top: 32px;
+}
+.catalog-statuses button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 0;
+  border: 0;
+  border-bottom: 3px solid transparent;
+  background: transparent;
+  color: var(--color-muted);
+  font: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.catalog-statuses button[aria-pressed='true'] {
+  color: var(--color-action);
+  border-bottom-color: currentColor;
+}
+.catalog-statuses button span {
+  font-size: 11px;
+  background: var(--color-canvas);
+  color: var(--color-ink);
+  padding: 2px 7px;
+  border-radius: 4px;
+}
+.catalog-context {
+  max-width: 800px;
+  color: var(--color-muted);
+  font-size: 13px;
+  margin: 16px 0 24px;
+}
+.catalog-count {
+  font-size: 12px;
+  color: var(--color-muted);
+  margin: -10px 0 20px;
+}
+.pet-record-date {
+  color: var(--color-muted);
+  font-size: 10px;
+  margin-top: 4px;
+}
+.pet-card-body .pet-personality {
+  min-height: 42px;
+}
+.pet-card-body .pet-meta {
+  flex-wrap: wrap;
+}
+.pet-modal-gallery {
+  min-width: 0;
+  background: var(--color-canvas);
+}
+.pet-modal-gallery .pet-modal-image {
+  width: 100%;
+  height: auto;
+  min-height: 0;
+  max-height: 520px;
+  object-fit: contain;
+}
+.photo-source-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  font-size: 11px;
+  margin: 16px;
+}
+.pet-photo-choices {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 16px 16px 0;
+}
+.pet-photo-choices button {
+  padding: 3px;
+  background: transparent;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+.pet-photo-choices button[aria-pressed='true'] {
+  border-color: var(--color-action);
+}
+.pet-photo-choices img {
+  width: 60px;
+  height: 70px;
+  object-fit: cover;
+}
+.pet-facts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  padding: 18px 0;
+  margin: 0 0 20px;
+  border-block: 1px solid var(--color-line);
+  font-size: 13px;
+}
+.pet-facts dt {
+  font-size: 11px;
+  color: var(--color-muted);
+  margin-bottom: 3px;
+}
+.pet-facts dd {
+  margin: 0;
+}
+.pet-age-fact {
+  grid-column: 1 / -1;
+}
+.pet-facts dd span {
+  display: block;
+  color: var(--color-muted);
+  font-size: 11px;
+  margin-top: 3px;
+}
+.pet-status-note {
+  background: var(--color-pink-soft);
+  padding: 14px;
+  margin: 16px 0;
+  font-size: 12px;
+}
+.pet-detail-heading,
+.pet-care h3 {
+  font-size: 13px;
+  margin: 20px 0 8px;
+}
+.pet-story {
+  white-space: pre-line;
+  overflow-wrap: anywhere;
+}
+.pet-care p {
+  font-size: 12px;
+  color: var(--color-muted);
+}
+.pet-sources {
+  margin: 22px 0;
+  border-block: 1px solid var(--color-line);
+  padding: 14px 0;
+  font-size: 12px;
+}
+.pet-sources summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+.pet-sources ul {
+  margin: 12px 0 0;
+  padding-left: 16px;
+}
+.pet-sources li + li {
+  margin-top: 9px;
+}
+.pet-sources a {
+  overflow-wrap: anywhere;
+}
+.profile-note {
+  font-size: 12px;
+  color: var(--color-muted);
+  margin-bottom: 16px;
+}
+.pet-contact-link {
+  margin: 16px 0 24px;
+  font-size: 12px;
+}
+@media (max-width: 700px) {
+  .catalog-statuses {
+    gap: 6px 16px;
+  }
+  .catalog-statuses button {
+    font-size: 12px;
+    padding: 10px 0;
+  }
+  .catalog-context {
+    font-size: 12px;
+  }
+  .pet-modal-gallery .pet-modal-image {
+    max-height: 360px;
+  }
+  .pet-card-body .pet-personality {
+    min-height: 0;
+  }
+}

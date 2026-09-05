@@ -1,0 +1,907 @@
+/* Brand artwork and components derived from the supplied identity reference. */
+.inline-link {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.inline-link:hover {
+  color: var(--color-magenta);
+}
+.announcement {
+  background: var(--color-magenta);
+  color: var(--color-paper);
+  gap: 28px;
+  font-size: 11px;
+  height: 33px;
+}
+.announcement-location {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.header-instagram {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 12px;
+  min-height: 42px;
+}
+.header-instagram:hover {
+  color: var(--color-magenta);
+}
+.desktop-nav {
+  gap: 26px;
+  margin-left: 0;
+}
+.brand-mark {
+  background: var(--color-magenta);
+  border: 1px solid var(--color-ink);
+  border-radius: var(--radius-card);
+  transform: rotate(-6deg);
+}
+.brand-dot {
+  color: var(--color-magenta);
+}
+.button-primary {
+  border: 1px solid var(--color-magenta);
+}
+.button-primary:hover {
+  border-color: var(--color-magenta-hover);
+}
+.button-outline {
+  border-color: var(--color-ink);
+}
+
+.hero {
+  padding: 57px 0 72px;
+  border-bottom: 1px solid var(--color-ink);
+}
+.hero-grid {
+  min-height: 475px;
+  grid-template-columns: 1.03fr 1fr;
+  gap: 20px;
+}
+.hero-location {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-bottom: 25px;
+  color: var(--color-teal-dark);
+  font-size: 11px;
+}
+.hero-location > span {
+  margin-inline: 3px;
+}
+.hero h1 {
+  font-size: clamp(50px, 5.1vw, 74px);
+}
+.hero-footnote a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.small-heart {
+  background: var(--color-pink-soft);
+  color: var(--color-magenta);
+}
+.hero-visual {
+  height: 475px;
+  isolation: isolate;
+}
+.brand-ribbon {
+  position: absolute;
+  width: 680px;
+  height: 565px;
+  top: -74px;
+  left: -62px;
+  z-index: -1;
+  pointer-events: none;
+}
+.hero-image-frame {
+  box-shadow:
+    -10px 12px 0 -1px var(--color-turquoise),
+    -10px 12px 0 0 var(--color-ink);
+  inset: 6px 39px 24px 34px;
+  background: var(--color-paper);
+  border: 1.5px solid var(--color-ink);
+  border-radius: var(--radius-sm);
+  padding: 12px 12px 50px;
+  transform: rotate(4deg);
+  overflow: visible;
+}
+
+.hero-image {
+  position: relative;
+  border: 1px solid var(--color-ink);
+  object-fit: cover;
+  object-position: center;
+  transform: none;
+}
+.hero-photo-caption {
+  position: absolute;
+  bottom: 9px;
+  inset-inline: 0;
+  text-align: center;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 25px;
+}
+.hero-doodle-heart {
+  right: -9px;
+  top: 0;
+  color: var(--color-magenta);
+  background: var(--color-mint);
+  border-radius: var(--radius-pill);
+  width: 57px;
+  height: 57px;
+  padding: 7px;
+}
+.hero-rays {
+  top: 1px;
+  left: -2px;
+  color: var(--color-teal-dark);
+}
+.hero-note {
+  bottom: 86px;
+  left: -4px;
+  z-index: 2;
+  border: 1px solid var(--color-ink);
+  color: var(--color-ink);
+  padding: 13px 19px;
+  border-radius: var(--radius-sm);
+  font-size: 15px;
+}
+.hero-caption {
+  bottom: -9px;
+  right: 16px;
+  color: var(--color-teal-dark);
+}
+.hero-scroll {
+  bottom: 20px;
+  border-color: var(--color-ink);
+}
+.hero-wave {
+  display: none;
+}
+.mission-strip {
+  background: var(--color-turquoise);
+  color: var(--color-ink);
+  border-bottom: 1px solid var(--color-ink);
+  padding-block: 23px;
+}
+.mission-strip svg {
+  color: var(--color-ink);
+}
+.mission-strip span {
+  font-size: 18px;
+}
+.section-kicker {
+  color: var(--color-teal-dark);
+}
+
+.segmented-control {
+  border: 1px solid var(--color-line);
+}
+.segmented-control button.selected {
+  background: var(--color-magenta);
+}
+.pet-grid {
+  gap: 24px;
+}
+.pet-card {
+  box-shadow:
+    -6px 7px 0 -1px var(--color-turquoise),
+    -6px 7px 0 0 var(--color-ink);
+  padding: 10px 10px 0;
+  border: 1px solid var(--color-ink);
+  border-radius: var(--radius-sm);
+  overflow: visible;
+  position: relative;
+  background: var(--color-paper);
+}
+
+.adoption-section {
+  isolation: isolate;
+}
+.pet-card:hover {
+  border-color: var(--color-ink);
+}
+.pet-photo-wrap {
+  border: 1px solid var(--color-ink);
+  overflow: hidden;
+}
+.pet-photo-button img {
+  aspect-ratio: 1;
+}
+.pet-card-body {
+  padding: 15px 7px 0;
+}
+.pet-name-row h3 {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 28px;
+}
+.pet-personality {
+  font-size: 12px;
+}
+.pet-detail-button {
+  color: var(--color-teal-dark);
+}
+.favorite-button {
+  border: 1px solid var(--color-ink);
+}
+.favorite-button.is-favorite {
+  color: var(--color-magenta);
+}
+.adoption-bottom {
+  margin-top: 33px;
+}
+.adoption-bottom p {
+  font-size: 11px;
+}
+
+.story-section {
+  border-block: 1px solid var(--color-line);
+}
+.story-visual {
+  box-shadow:
+    11px 11px 0 -1px var(--color-magenta),
+    11px 11px 0 0 var(--color-ink);
+  padding: 12px 12px 48px;
+  background: var(--color-paper);
+  border: 1px solid var(--color-ink);
+  border-radius: var(--radius-sm);
+  transform: rotate(-3deg);
+}
+.story-visual > img {
+  height: 340px;
+  border-radius: 0;
+  border: 1px solid var(--color-ink);
+}
+
+.story-image-note {
+  right: -19px;
+  bottom: -9px;
+  background: var(--color-paper);
+  border-color: var(--color-ink);
+  border-radius: var(--radius-sm);
+  transform: rotate(6deg);
+}
+.story-paw {
+  top: -25px;
+  left: -28px;
+  color: var(--color-teal-dark);
+}
+.story-copy .inline-link {
+  color: var(--color-magenta);
+}
+.steps-grid {
+  gap: 64px;
+}
+.step-icon {
+  border: 1px solid var(--color-ink);
+  background: var(--color-aqua-soft);
+  color: var(--color-teal-dark);
+}
+.step:nth-child(2) .step-icon {
+  background: var(--color-pink-soft);
+  color: var(--color-magenta);
+}
+.steps-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 11px;
+  margin-top: 42px;
+}
+.steps-action > span {
+  color: var(--color-muted);
+  font-size: 11px;
+}
+.help-section {
+  border-block: 1px solid var(--color-line);
+}
+.help-card {
+  border-color: var(--color-line);
+  border-top: 3px solid var(--color-magenta);
+}
+.help-card:nth-child(2) {
+  border-top-color: var(--color-turquoise);
+}
+.help-card:nth-child(3) {
+  border-top-color: var(--color-ink);
+}
+.help-card h3 {
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 400;
+}
+.help-card .text-link {
+  font-size: 13px;
+}
+.help-icon {
+  border: 1px solid currentColor;
+}
+
+.instagram-section {
+  background: var(--color-paper);
+}
+.instagram-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  align-items: center;
+  gap: 120px;
+}
+.instagram-grid h2 {
+  font-size: 45px;
+}
+.instagram-grid > div > p {
+  font-size: 14px;
+  color: var(--color-muted);
+  max-width: 420px;
+  margin: 23px 0 28px;
+}
+.instagram-postcard {
+  box-shadow:
+    10px 11px 0 -1px var(--color-magenta),
+    10px 11px 0 0 var(--color-ink);
+  position: relative;
+  padding: 34px;
+  background: var(--color-aqua-soft);
+  border: 1px solid var(--color-ink);
+  border-radius: var(--radius-sm);
+  transform: rotate(3deg);
+}
+
+.instagram-postcard > svg {
+  color: var(--color-teal-dark);
+}
+.instagram-grid .instagram-postcard > p {
+  font-family: var(--font-display);
+  font-size: 43px;
+  line-height: 1.1;
+  letter-spacing: -1.2px;
+  color: var(--color-ink);
+  margin: 24px 0;
+}
+.instagram-postcard > p > span {
+  color: var(--color-magenta);
+}
+.instagram-postcard > div {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: var(--color-teal-dark);
+}
+.instagram-postcard > a {
+  margin-top: 18px;
+  font-size: 12px;
+}
+.faq-section {
+  background: var(--color-mint);
+  border-top: 1px solid var(--color-line);
+}
+.faq-list summary {
+  font-size: 15px;
+}
+.closing-cta {
+  background: var(--color-magenta);
+  border-block: 1px solid var(--color-ink);
+}
+.closing-paw {
+  color: var(--color-pink-soft);
+}
+.button-cream {
+  background: var(--color-paper);
+  border: 1px solid var(--color-ink);
+}
+.footer {
+  background: var(--color-paper);
+}
+.footer-main {
+  grid-template-columns: 1.1fr 0.9fr 1.1fr 1.1fr;
+  gap: 33px;
+}
+.footer-social {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 13px;
+  color: var(--color-magenta);
+}
+.footer-note p.footer-location {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 13px;
+  margin-bottom: 9px;
+}
+.footer-pix {
+  font-size: 11px;
+  color: var(--color-muted);
+  overflow-wrap: anywhere;
+}
+.footer-note .inline-link {
+  font-size: 12px;
+}
+
+.pix-donation {
+  background: var(--color-paper);
+  border: 1px solid var(--color-magenta);
+  border-radius: var(--radius-sm);
+  padding: 22px;
+  margin-top: 21px;
+}
+.support-tab-content > .pix-donation {
+  margin-top: 0;
+}
+.donation-impact {
+  margin-block: 20px;
+  font-size: 13px;
+}
+.donation-impact summary {
+  cursor: pointer;
+  color: var(--color-teal-dark);
+}
+.pix-heading {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  color: var(--color-magenta);
+}
+.pix-heading h3 {
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 400;
+}
+.pix-donation > p {
+  font-size: 12px;
+  color: var(--color-muted);
+  margin-top: 8px;
+}
+.pix-donation > label {
+  display: block;
+  font-size: 11px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 6px;
+}
+.pix-key-row {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+.pix-key-row input {
+  width: 100%;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-sm);
+  background: var(--color-mint);
+  color: var(--color-ink);
+  font-size: 15px;
+  padding: 12px;
+}
+.pix-key-row .button {
+  border-radius: var(--radius-sm);
+}
+.pix-donation p.pix-copy-status {
+  margin-top: 11px;
+  font-size: 11px;
+}
+.support-contact {
+  margin-top: 20px;
+}
+.preparation-button {
+  margin-top: 12px;
+  font-size: 12px;
+}
+.adoption-checklist {
+  margin-top: 24px;
+}
+.trait-list span {
+  background: var(--color-aqua-soft);
+  color: var(--color-teal-dark);
+}
+.pet-modal-title .favorite-button {
+  border-color: var(--color-line);
+}
+.support-modal-icon {
+  background: var(--color-pink-soft);
+  color: var(--color-magenta);
+}
+.support-tabs button.selected {
+  background: var(--color-magenta);
+}
+.modal {
+  border: 1px solid var(--color-ink);
+}
+
+@media (max-width: 1150px) {
+  .header-instagram span {
+    display: none;
+  }
+  .header-instagram {
+    width: 34px;
+  }
+  .header-actions {
+    gap: 11px;
+  }
+  .desktop-nav {
+    gap: 20px;
+  }
+  .hero h1 {
+    font-size: 61px;
+  }
+  .hero-visual {
+    height: 436px;
+  }
+  .hero-image-frame {
+    inset: 8px 18px 25px 23px;
+  }
+  .hero-location {
+    font-size: 10px;
+    gap: 5px;
+  }
+  .hero-photo-caption {
+    font-size: 23px;
+  }
+  .brand-ribbon {
+    width: 610px;
+    height: 510px;
+    left: -100px;
+    top: -44px;
+  }
+  .instagram-grid {
+    gap: 80px;
+  }
+  .instagram-grid h2 {
+    font-size: 39px;
+  }
+  .instagram-grid .instagram-postcard > p {
+    font-size: 36px;
+  }
+  .footer-main {
+    gap: 25px;
+  }
+}
+@media (max-width: 900px) {
+  .header-actions {
+    gap: 7px;
+  }
+  .desktop-nav {
+    gap: 17px;
+  }
+  .hero-grid {
+    gap: 6px;
+    min-height: 395px;
+  }
+  .hero-visual {
+    height: 389px;
+  }
+  .hero h1 {
+    font-size: 50px;
+  }
+  .hero-location {
+    flex-wrap: wrap;
+    row-gap: 4px;
+    margin-bottom: 18px;
+  }
+  .hero-location > span {
+    margin-inline: 0;
+  }
+  .hero-image-frame {
+    padding: 9px 9px 42px;
+    inset: 8px 16px 23px 18px;
+  }
+  .hero-photo-caption {
+    font-size: 20px;
+  }
+  .hero-note {
+    bottom: 76px;
+    left: 2px;
+    font-size: 12px;
+    padding: 12px;
+  }
+  .hero-doodle-heart {
+    width: 42px;
+    height: 42px;
+    top: 4px;
+    right: -10px;
+  }
+  .brand-ribbon {
+    width: 550px;
+    height: 450px;
+    left: -114px;
+  }
+  .mission-strip span {
+    font-size: 15px;
+  }
+  .story-visual > img {
+    height: 320px;
+  }
+  .pet-photo-button img {
+    aspect-ratio: 1.18;
+  }
+  .help-card h3 {
+    font-size: 22px;
+  }
+  .steps-grid {
+    gap: 34px;
+  }
+  .instagram-grid {
+    gap: 55px;
+  }
+  .instagram-postcard {
+    padding: 25px;
+  }
+  .instagram-grid h2 {
+    font-size: 34px;
+  }
+  .instagram-grid .instagram-postcard > p {
+    font-size: 31px;
+  }
+  .instagram-postcard > a {
+    font-size: 11px;
+  }
+  .footer-main {
+    grid-template-columns: 1.2fr 1fr 1fr;
+  }
+  .footer-note {
+    display: block;
+    grid-column: 1 / -1;
+  }
+}
+@media (max-width: 700px) {
+  .announcement {
+    height: auto;
+    min-height: 30px;
+    font-size: 9px;
+    padding: 7px 12px;
+  }
+  .announcement-location {
+    display: none;
+  }
+  .header-instagram {
+    min-height: 44px;
+    width: 40px;
+  }
+  .header-actions {
+    gap: 5px;
+  }
+  .hero {
+    padding: 34px 0 44px;
+  }
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 38px;
+  }
+  .hero-location {
+    justify-content: center;
+    font-size: 9px;
+    margin-bottom: 20px;
+  }
+  .hero h1 {
+    font-size: clamp(43px, 9.3vw, 61px);
+  }
+  .hero-actions {
+    gap: 18px;
+  }
+  .hero-footnote {
+    font-size: 9px;
+    gap: 6px;
+  }
+  .hero-visual {
+    height: 369px;
+    width: min(370px, calc(100% - 12px));
+  }
+  .hero-image-frame {
+    inset: 6px 20px 14px;
+    padding: 10px 10px 44px;
+  }
+  .hero-photo-caption {
+    font-size: 22px;
+  }
+
+  .brand-ribbon {
+    width: 520px;
+    height: 460px;
+    top: -50px;
+    left: -88px;
+  }
+  .hero-note {
+    bottom: 73px;
+    left: -11px;
+    font-size: 12px;
+    padding: 10px 13px;
+  }
+  .hero-caption {
+    font-size: 9px;
+    bottom: -16px;
+    right: 4px;
+  }
+  .hero-rays {
+    top: -4px;
+    left: -8px;
+  }
+  .hero-doodle-heart {
+    top: -14px;
+    right: -6px;
+    width: 41px;
+  }
+  .mission-strip {
+    padding-block: 18px;
+  }
+  .mission-strip span {
+    font-size: 15px;
+  }
+  .mission-strip-inner {
+    gap: 29px;
+  }
+  .pet-grid {
+    gap: 22px 16px;
+  }
+  .pet-card {
+    padding: 7px 7px 0;
+  }
+
+  .pet-photo-button img {
+    aspect-ratio: 0.88;
+  }
+  .pet-card-body {
+    padding: 11px 3px 0;
+  }
+  .pet-name-row h3 {
+    font-size: 25px;
+  }
+  .pet-personality {
+    font-size: 11px;
+    min-height: 48px;
+  }
+  .pet-meta {
+    font-size: 10px;
+  }
+  .pet-name-row > span {
+    font-size: 9px;
+  }
+  .pet-detail-button {
+    font-size: 10px;
+  }
+  .favorite-button {
+    right: 6px;
+    top: 6px;
+    width: 34px;
+    height: 34px;
+  }
+  .adoption-bottom {
+    gap: 17px;
+    margin-top: 30px;
+  }
+  .adoption-bottom p {
+    font-size: 10px;
+  }
+  .story-visual {
+    width: calc(100% - 22px);
+    margin-bottom: 13px;
+    padding: 10px 10px 37px;
+  }
+  .story-visual > img {
+    height: 282px;
+  }
+  .story-image-note {
+    right: -12px;
+    font-size: 15px;
+    padding: 13px 17px;
+  }
+  .story-paw {
+    top: -17px;
+    left: -17px;
+    width: 41px;
+  }
+  .story-grid {
+    gap: 35px;
+  }
+  .story-copy h2 {
+    font-size: 33px;
+  }
+  .story-principles {
+    gap: 15px;
+  }
+  .steps-grid {
+    gap: 28px;
+  }
+  .steps-action {
+    margin-top: 30px;
+  }
+  .steps-action .button {
+    width: 100%;
+    font-size: 12px;
+  }
+  .help-card h3 {
+    font-size: 26px;
+  }
+  .instagram-grid {
+    grid-template-columns: 1fr;
+    gap: 38px;
+  }
+  .instagram-grid h2 {
+    font-size: 35px;
+  }
+  .instagram-grid > div > p {
+    font-size: 14px;
+    margin-block: 19px 23px;
+  }
+  .instagram-postcard {
+    width: calc(100% - 24px);
+    margin: 0 auto 10px;
+    padding: 29px;
+  }
+  .instagram-grid .instagram-postcard > p {
+    font-size: 39px;
+  }
+  .instagram-postcard > a {
+    font-size: 13px;
+  }
+  .faq-list summary {
+    font-size: 14px;
+  }
+  .closing-cta .button {
+    font-size: 12px;
+  }
+  .footer-main {
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer-note {
+    grid-column: 1 / -1;
+  }
+  .footer-pix {
+    font-size: 10px;
+  }
+  .pix-donation {
+    padding: 17px;
+  }
+  .pix-key-row input {
+    font-size: 14px;
+    padding-inline: 9px;
+  }
+  .pet-modal-content > .button {
+    font-size: 12px;
+    gap: 8px;
+  }
+}
+@media (max-width: 370px) {
+  .hero-visual {
+    height: 321px;
+  }
+  .hero-photo-caption {
+    font-size: 19px;
+  }
+  .hero-note {
+    font-size: 11px;
+  }
+  .hero-footnote {
+    font-size: 8px;
+  }
+  .pet-personality {
+    min-height: 60px;
+  }
+  .pet-meta {
+    gap: 4px;
+  }
+  .pet-detail-button {
+    font-size: 9px;
+  }
+  .pix-key-row input {
+    font-size: 12px;
+  }
+}
+
+.pet-card:nth-child(even) {
+  box-shadow:
+    -6px 7px 0 -1px var(--color-magenta),
+    -6px 7px 0 0 var(--color-ink);
+}

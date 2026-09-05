@@ -1,0 +1,970 @@
+[
+  {
+    "petId": "resgate-pretinho",
+    "source": "DE1G9fgOk1b/2025-01-15_02-40-51_UTC.jpg",
+    "sourceSha256": "48edfe845769383b3a22974686a66b2ba9ed9b490398cd08cd3a6e1a4b79edd6",
+    "output": "public/images/resgatados/resgate-pretinho-DE1G9fgOk1b.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-orquidea",
+    "source": "DE2L4UQul-k/2025-01-15_12-43-04_UTC.jpg",
+    "sourceSha256": "6e9aef7cfa4d0e5b60f6ba9397d7a43f9852749f4563fa208007277654d3ebf0",
+    "output": "public/images/resgatados/resgate-orquidea-DE2L4UQul-k.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-branca",
+    "source": "DE3QplCuIJY/2025-01-15_22-43-59_UTC.jpg",
+    "sourceSha256": "9859b727f36d9af5c89df63a0548335421b9aea7cc96985e7d400d75fce4cc3d",
+    "output": "public/images/resgatados/resgate-branca-DE3QplCuIJY.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-jasmin",
+    "source": "DE5EZPTu6L-/2025-01-16_15-35-23_UTC.jpg",
+    "sourceSha256": "7610744a2bbd755fdad0a6df2b62c17ac7ff8eb7d506b1d6b87403b553bb3f95",
+    "output": "public/images/resgatados/resgate-jasmin-DE5EZPTu6L-.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-snow",
+    "source": "DE6OQDTuhPo/2025-01-17_02-20-45_UTC.jpg",
+    "sourceSha256": "fab5d791ba0f061516076e4ed422d30df342e09d68de0f626467184bc9b51955",
+    "output": "public/images/resgatados/resgate-snow-DE6OQDTuhPo.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-cereja",
+    "source": "DE7eFwkOuvs/2025-01-17_13-58-24_UTC.jpg",
+    "sourceSha256": "5080d9f357225660e33ba5cd7f85af4b206506d3c9519d280d135617d8a6e6e7",
+    "output": "public/images/resgatados/resgate-cereja-DE7eFwkOuvs.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-alecrim",
+    "source": "DE932REutaH/2025-01-18_12-21-57_UTC.jpg",
+    "sourceSha256": "ba1d0646cae87fd447b634ac284b39c335a29494e5622d2b55a8bfe9a0d28edb",
+    "output": "public/images/resgatados/resgate-alecrim-DE932REutaH.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-pimenta",
+    "source": "DFAyvRnudDY/2025-01-19_15-35-02_UTC.jpg",
+    "sourceSha256": "af613477522c66b6dcdd0a69453b69b06b86caa9883ff35f083f25513f35a1cb",
+    "output": "public/images/resgatados/resgate-pimenta-DFAyvRnudDY.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-gengibre",
+    "source": "DFB3FwFOuOH/2025-01-20_01-32-17_UTC.jpg",
+    "sourceSha256": "286f05ccbbd59f457decada39e7850b3cb055ffe9d2c22ba8cc1f6a97fa26b1f",
+    "output": "public/images/resgatados/resgate-gengibre-DFB3FwFOuOH.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-acafrao",
+    "source": "DFEKwTLOg3F/2025-01-20_23-02-36_UTC.jpg",
+    "sourceSha256": "8b3dc3bcc7dcca952b3c10fbd70d85a7c90ff038d52b749f355226cf0171de67",
+    "output": "public/images/resgatados/resgate-acafrao-DFEKwTLOg3F.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-curcuma",
+    "source": "DFG5dVMOxdB/2025-01-22_00-29-11_UTC.jpg",
+    "sourceSha256": "0cd293d8a532e04017e8c25dd5c70fd1c90b8ec9868b7e21f8c632e37987579f",
+    "output": "public/images/resgatados/resgate-curcuma-DFG5dVMOxdB.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-paprica",
+    "source": "DFI38lexdw6/2025-01-22_18-54-28_UTC.jpg",
+    "sourceSha256": "74b7897086b7d2804dbd5fda5fee716da6c51c332d812db60f57fda1823498b7",
+    "output": "public/images/resgatados/resgate-paprica-DFI38lexdw6.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-apolo",
+    "source": "DFK8XfZOeYM/2025-01-23_14-11-34_UTC.jpg",
+    "sourceSha256": "636eb83732bafedd0d3d70fe2ff352b82b50e1f901b29966cf7afc6aba036782",
+    "output": "public/images/resgatados/resgate-apolo-DFK8XfZOeYM.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-roma-fruta",
+    "source": "DFL4VmNO5Gy/2025-01-23_22-55-36_UTC.jpg",
+    "sourceSha256": "5fa69425fe8c2687a8f08b9081f502dbc2abf57ca1b796cef58e637baf76da62",
+    "output": "public/images/resgatados/resgate-roma-fruta-DFL4VmNO5Gy.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-pitaya",
+    "source": "DFNbPHNOQNp/2025-01-24_13-19-47_UTC.jpg",
+    "sourceSha256": "7eff364b139ba91c7cb3cc252fe66b9c844c304ea3375e7ea93196e53a500952",
+    "output": "public/images/resgatados/resgate-pitaya-DFNbPHNOQNp.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-jabuticaba",
+    "source": "DFOjMhdOqPs/2025-01-24_23-48-35_UTC.jpg",
+    "sourceSha256": "946f639107e767af27fa901559129375e5fc1195f2ace88c86f50b598f80d11f",
+    "output": "public/images/resgatados/resgate-jabuticaba-DFOjMhdOqPs.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-limao",
+    "source": "DF34ROTOsHl/2025-02-10_01-01-35_UTC.jpg",
+    "sourceSha256": "90eabd93eee013a19e384ce3783d4e078f9cd08b241af727d72e2ee057089700",
+    "output": "public/images/resgatados/resgate-limao-DF34ROTOsHl.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-newton",
+    "source": "DGA6PVrOg-8/2025-02-13_13-11-58_UTC.jpg",
+    "sourceSha256": "3a2ebd0e510bab3e4c17c1af1096449213601d83825633c0eb08b5e9b838fd2e",
+    "output": "public/images/resgatados/resgate-newton-DGA6PVrOg-8.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-darwin",
+    "source": "DGBnVRNxbHd/2025-02-13_19-45-59_UTC.jpg",
+    "sourceSha256": "47cb6c9e0437d0d2d792dfe37124b758fa650a09ecfe8cf3bbf73134027fe8a8",
+    "output": "public/images/resgatados/resgate-darwin-DGBnVRNxbHd.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-carmilla",
+    "source": "DG9G39juxgp/2025-03-08_22-16-48_UTC.jpg",
+    "sourceSha256": "2e048a4f75e5d3a9354b9d9a27423149b9ba3a957e3e33ec54fbd32f4c8d6800",
+    "output": "public/images/resgatados/resgate-carmilla-DG9G39juxgp.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-orlok",
+    "source": "DG_hnr2ua42/2025-03-09_20-48-59_UTC.jpg",
+    "sourceSha256": "7883ead2d75b03d3e4f8b2b13f940aab3d2e94c16b5d8d1a1ff5372da5fc1539",
+    "output": "public/images/resgatados/resgate-orlok-DG_hnr2ua42.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-lenore",
+    "source": "DHBXls8uq5y/2025-03-10_13-59-49_UTC.jpg",
+    "sourceSha256": "df7158ed6707ee63502ab24802171d9e7d6a14f8e56b8a8908b8fded7ecb6f3c",
+    "output": "public/images/resgatados/resgate-lenore-DHBXls8uq5y.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-mircalla",
+    "source": "DHCvRfWOGBR/2025-03-11_02-46-01_UTC.jpg",
+    "sourceSha256": "7be20647194f5b5baeb12232ae8656d46f5350e853149ddad73bbfc40c0b966b",
+    "output": "public/images/resgatados/resgate-mircalla-DHCvRfWOGBR.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-git",
+    "source": "DHGmpaJuTOZ/2025-03-12_14-47-36_UTC.jpg",
+    "sourceSha256": "df99f9e55fda2953eb2654310d402f5528265e02b5596bd49253ef503e29816f",
+    "output": "public/images/resgatados/resgate-git-DHGmpaJuTOZ.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-sirius",
+    "source": "DHH4VsvOHlV/2025-03-13_02-41-26_UTC.jpg",
+    "sourceSha256": "1b2e7eb2df67813a84c65da877b93e87340d59ebe98bfe2b495d2aab03471969",
+    "output": "public/images/resgatados/resgate-sirius-DHH4VsvOHlV.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-roma-cidade",
+    "source": "DHKdDkqu2zx/2025-03-14_02-40-45_UTC.jpg",
+    "sourceSha256": "06825870e61b996f368399f6f35a4d12497b902f7e934e1185b0832c2245e829",
+    "output": "public/images/resgatados/resgate-roma-cidade-DHKdDkqu2zx.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-rio",
+    "source": "DHKdSTuuSvf/2025-03-14_02-42-46_UTC.jpg",
+    "sourceSha256": "f76da48aee8c27cb14adfcb3b854ffe09d043356dfeee61f978bc3d8144b7571",
+    "output": "public/images/resgatados/resgate-rio-DHKdSTuuSvf.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-berlim",
+    "source": "DHNM7XjupZ5/2025-03-15_04-17-33_UTC.jpg",
+    "sourceSha256": "e84e0f92207b7c3c1806cb832935d0ada4a232fa0ba32d97b02754d967c32747",
+    "output": "public/images/resgatados/resgate-berlim-DHNM7XjupZ5.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-manilla",
+    "source": "DHRHYKJO_gz/2025-03-16_16-46-00_UTC.jpg",
+    "sourceSha256": "7734bdfc2fd07a7f4f660fc1f91278d80867d0bd6bc5d794dcaf9fea89dea8c3",
+    "output": "public/images/resgatados/resgate-manilla-DHRHYKJO_gz.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-nairobi",
+    "source": "DHR4iDpuzda/2025-03-16_23-55-32_UTC.jpg",
+    "sourceSha256": "5b87e60f5936bbbf6b26ce01b6dd7c772be069dc4f38bcb1ea63d74bc00559a2",
+    "output": "public/images/resgatados/resgate-nairobi-DHR4iDpuzda.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-havana",
+    "source": "DHTjcfTObFa/2025-03-17_15-29-45_UTC.jpg",
+    "sourceSha256": "a636a561af387739c77f0c625a212d3b43895c51861487c22e421fbb3545b540",
+    "output": "public/images/resgatados/resgate-havana-DHTjcfTObFa.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-santiago",
+    "source": "DHYdKqaO9G9/2025-03-19_13-11-05_UTC.jpg",
+    "sourceSha256": "6a3bfc90281966082ab5eb7b1b55c7e4217869f4f6b1920c5cf5cace8c6043ea",
+    "output": "public/images/resgatados/resgate-santiago-DHYdKqaO9G9.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-lima",
+    "source": "DHb_F5Yu-W3/2025-03-20_22-05-15_UTC.jpg",
+    "sourceSha256": "6c712afae4dbb337adff351e5a027f25facfa050365ae4d139659c1000a4a99c",
+    "output": "public/images/resgatados/resgate-lima-DHb_F5Yu-W3.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-luna",
+    "source": "DHfCh0QOJVV/2025-03-22_02-33-00_UTC.jpg",
+    "sourceSha256": "b83abe02488ddffb8f1da157fc8209614f54c99f9c72b73ce1749115bc2e8512",
+    "output": "public/images/resgatados/resgate-luna-DHfCh0QOJVV.webp",
+    "crop": [333, 333, 1150, 1287],
+    "dimensions": [817, 954]
+  },
+  {
+    "petId": "resgate-theo",
+    "source": "DHfHPx7O2wW/2025-03-22_03-14-14_UTC.jpg",
+    "sourceSha256": "9021deed9a61c293836030251df8efc84d033e05419eececaffba04c91257ff1",
+    "output": "public/images/resgatados/resgate-theo-DHfHPx7O2wW.webp",
+    "crop": [333, 333, 1150, 1287],
+    "dimensions": [817, 954]
+  },
+  {
+    "petId": "resgate-tokyo",
+    "source": "DHs81uDOEvE/2025-03-27_12-12-40_UTC.jpg",
+    "sourceSha256": "c397edde9a4be967026dc3b1608d6e41410cb0b3ec5359608fa65a4ea92c40ec",
+    "output": "public/images/resgatados/resgate-tokyo-DHs81uDOEvE.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-brigadeiro",
+    "source": "DHt4f_fuKQt/2025-03-27_20-53-59_UTC.jpg",
+    "sourceSha256": "a3bbd085c8ec5d4e6cb4bca9a32af3087f2fb7d7765d45e55bdd0d67b035f7ff",
+    "output": "public/images/resgatados/resgate-brigadeiro-DHt4f_fuKQt.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-cupcake",
+    "source": "DHygR4uOqQQ/2025-03-29_15-58-33_UTC.jpg",
+    "sourceSha256": "2b22034a8144d56b5237c3f8e5525c17745c0040a7778e82e993033046714f20",
+    "output": "public/images/resgatados/resgate-cupcake-DHygR4uOqQQ.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-cookie",
+    "source": "DH1NSQTucix/2025-03-30_17-10-17_UTC.jpg",
+    "sourceSha256": "4db3b9cdc09e233c4b93e4dcc8fa316d224230ff5fb5adb195a089bdb2af020f",
+    "output": "public/images/resgatados/resgate-cookie-DH1NSQTucix.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-banoffe",
+    "source": "DH2QDrEO_4r/2025-03-31_02-53-45_UTC.jpg",
+    "sourceSha256": "aab9d2f991f12f4163a093f5f4a564dc444dfc21e36dcfc36605e949647be770",
+    "output": "public/images/resgatados/resgate-banoffe-DH2QDrEO_4r.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-quindim",
+    "source": "DH3h8bcOWQA/2025-03-31_14-49-17_UTC.jpg",
+    "sourceSha256": "892681d0fc3bb6cb8d8cfd0783eb97c472330bdb1e23bd53df6fe512ca9a2041",
+    "output": "public/images/resgatados/resgate-quindim-DH3h8bcOWQA.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-bombom",
+    "source": "DH4gj9FuY_B/2025-03-31_23-56-27_UTC.jpg",
+    "sourceSha256": "482b2470786550835dfe625431855f3dac96e7adfca48db84d66324e5457b9f0",
+    "output": "public/images/resgatados/resgate-bombom-DH4gj9FuY_B.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-capuccino",
+    "source": "DH7O8TUupsU/2025-04-02_01-20-13_UTC.jpg",
+    "sourceSha256": "979eb11c6cf627acb91f90ff7235042e0382e01ded93a0f30dcc2ce5a4cf1807",
+    "output": "public/images/resgatados/resgate-capuccino-DH7O8TUupsU.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-expresso",
+    "source": "DH8r_BKO0n7/2025-04-02_14-53-14_UTC.jpg",
+    "sourceSha256": "3a6d5a484eeb93c27de9d4d7a4281a52b2c6c34084a605ee632116ce2b4503ca",
+    "output": "public/images/resgatados/resgate-expresso-DH8r_BKO0n7.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-frapuccino",
+    "source": "DH9t0Nluzfu/2025-04-03_00-28-28_UTC.jpg",
+    "sourceSha256": "dcc7af311600372da7f7deae80d7f881d37fa40a850bff36adb41e9ce7ac3c79",
+    "output": "public/images/resgatados/resgate-frapuccino-DH9t0Nluzfu.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-mocaccino",
+    "source": "DH_JLIzO1_z/2025-04-03_13-46-46_UTC.jpg",
+    "sourceSha256": "d372dfe66848ba55d6309c490d3611f549c42f8a4d5e70faf0029a24fc3f9f66",
+    "output": "public/images/resgatados/resgate-mocaccino-DH_JLIzO1_z.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-vanilla-latte",
+    "source": "DIAeIc-u7Ho/2025-04-04_02-09-09_UTC.jpg",
+    "sourceSha256": "c99a18854cab789be69ce42ec936f87d477dbc0d48bfb3e15590333a8c3ca6c8",
+    "output": "public/images/resgatados/resgate-vanilla-latte-DIAeIc-u7Ho.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-mojito",
+    "source": "DIBwakLOFYy/2025-04-04_14-08-09_UTC.jpg",
+    "sourceSha256": "648f618c36f030fe453c75c385e424520efcb47389d57e89fc02d8295c19c074",
+    "output": "public/images/resgatados/resgate-mojito-DIBwakLOFYy.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-martini",
+    "source": "DIEokIRuUYY/2025-04-05_16-57-16_UTC.jpg",
+    "sourceSha256": "8775bbfe1121baf3cc76550a61d14291532fb53a56ffdd983bd456c4b190d5f5",
+    "output": "public/images/resgatados/resgate-martini-DIEokIRuUYY.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-artemis-macho",
+    "source": "DIFcyiROLaU/2025-04-06_00-33-37_UTC.jpg",
+    "sourceSha256": "b4933edba3cbaf4c0ef4de60f60c80bfa73f888e427435923fdb632feceda215",
+    "output": "public/images/resgatados/resgate-artemis-macho-DIFcyiROLaU.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-ares",
+    "source": "DIHIy9bOsPo/2025-04-06_16-17-24_UTC.jpg",
+    "sourceSha256": "54f2829d65476e6c679c38a9d430a6bd0e2d4799d71308aa6411728442bc893e",
+    "output": "public/images/resgatados/resgate-ares-DIHIy9bOsPo.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-hercules",
+    "source": "DIILGB5O6u-/2025-04-07_01-56-43_UTC.jpg",
+    "sourceSha256": "863059c0fd29fb14dc6f69ba30c0cbee0606382cea1de1a8acd2c5611fb0d1ba",
+    "output": "public/images/resgatados/resgate-hercules-DIILGB5O6u-.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-afrodite",
+    "source": "DIKRo5_OwlP/2025-04-07_21-32-23_UTC.jpg",
+    "sourceSha256": "5bf0ba892a08670dbb50b3a86c563510ed0ca5039a254356aafc5c20b5b39923",
+    "output": "public/images/resgatados/resgate-afrodite-DIKRo5_OwlP.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-artemis-femea",
+    "source": "DIL2zdiuHAL/2025-04-08_12-16-23_UTC.jpg",
+    "sourceSha256": "0c8973f20577035a35abf57325d9386d46f5bc6ebf8efcf8749dbba3be61b511",
+    "output": "public/images/resgatados/resgate-artemis-femea-DIL2zdiuHAL.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-hera",
+    "source": "DIOj5eiOOOF/2025-04-09_13-28-54_UTC.jpg",
+    "sourceSha256": "51550c30a96a64efc116c8d4845dcfe9c0c81bb673cbd35d5922a5569f08d3da",
+    "output": "public/images/resgatados/resgate-hera-DIOj5eiOOOF.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-zeus",
+    "source": "DISb6acuaAe/2025-04-11_01-36-05_UTC.jpg",
+    "sourceSha256": "80fe15e50df615fca1000946686dd53a9d77a6189b511f757c3da53c2a893cd2",
+    "output": "public/images/resgatados/resgate-zeus-DISb6acuaAe.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-romeu",
+    "source": "DImZd7yuUa4/2025-04-18_19-39-32_UTC.jpg",
+    "sourceSha256": "8abf95a5f19b1a758cef2236e90da55489fdefaec4f71f8a143cca7f7bc1f895",
+    "output": "public/images/resgatados/resgate-romeu-DImZd7yuUa4.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-mocha",
+    "source": "DIrsPzuOHFK/2025-04-20_20-59-50_UTC.jpg",
+    "sourceSha256": "1a89a22768ad7b5c1ee3923bfe2c9406fd2726c0b3b9d1b03348b99d5238b059",
+    "output": "public/images/resgatados/resgate-mocha-DIrsPzuOHFK.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-ariel",
+    "source": "DIsXoe7OIhQ/2025-04-21_03-18-56_UTC.jpg",
+    "sourceSha256": "11169f9559c4f2a5bfbf98d93e65400a5d4f2c08568ef6da896f2a19232d7034",
+    "output": "public/images/resgatados/resgate-ariel-DIsXoe7OIhQ.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-aurora",
+    "source": "DIts5OQuxpP/2025-04-21_15-43-58_UTC.jpg",
+    "sourceSha256": "3e7c5532cb03fdf8cb22bd837d0a538c67eefedfb3a526621705d03a849b7129",
+    "output": "public/images/resgatados/resgate-aurora-DIts5OQuxpP.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-bela",
+    "source": "DIzheAeMUMd/2025-04-23_21-59-34_UTC.jpg",
+    "sourceSha256": "7c1fbc34d815f61b7a55e128357de701a9a0a4f1f53ccf4d2b282fbedbc91092",
+    "output": "public/images/resgatados/resgate-bela-DIzheAeMUMd.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-anna",
+    "source": "DI1DfQbuW5U/2025-04-24_12-16-05_UTC.jpg",
+    "sourceSha256": "36caf35dd7a73933fa584e85a2f47ed9db20d0e451adffb84f4f19a5f23ae839",
+    "output": "public/images/resgatados/resgate-anna-DI1DfQbuW5U.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-violeta",
+    "source": "DI702k8OvUJ/2025-04-27_03-22-52_UTC.jpg",
+    "sourceSha256": "14f13e2a8a2bb4695700e26847806d603f7bae8e3df98160106e8f0c05871b4a",
+    "output": "public/images/resgatados/resgate-violeta-DI702k8OvUJ.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-tulipa",
+    "source": "DI9J2bJO-3i/2025-04-27_15-45-36_UTC.jpg",
+    "sourceSha256": "5b3cb54b8dd836e3c834b82e41ca01224e7e9e80ffdbccc7e2282cba4fcea0f6",
+    "output": "public/images/resgatados/resgate-tulipa-DI9J2bJO-3i.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-cravo",
+    "source": "DI-HiMEOtZO/2025-04-28_00-44-36_UTC.jpg",
+    "sourceSha256": "aea419a551bbf79d54b5bb6950bc16c3a83e0b9bfdd154a91e160b6e44b12b66",
+    "output": "public/images/resgatados/resgate-cravo-DI-HiMEOtZO.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-mimosa",
+    "source": "DI_7PJqO6IS/2025-04-28_17-35-37_UTC.jpg",
+    "sourceSha256": "b7dbb1c8b083da3224c8a262c9af18860bf194ee2ce39f1cce4c04ec4211d24a",
+    "output": "public/images/resgatados/resgate-mimosa-DI_7PJqO6IS.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-musou",
+    "source": "DJBzEQ-ucZm/2025-04-29_11-02-43_UTC.jpg",
+    "sourceSha256": "419189fd0ed4318a555d437c94818df7bd5f59a5e308566232b9732addc06cfd",
+    "output": "public/images/resgatados/resgate-musou-DJBzEQ-ucZm.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-pinguim",
+    "source": "DJRcQ17OMZW/2025-05-05_12-51-18_UTC.jpg",
+    "sourceSha256": "3767312b99a7a78339dff8d309972a767353a99ae3bc84d5f3d29135db2bfe3f",
+    "output": "public/images/resgatados/resgate-pinguim-DJRcQ17OMZW.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-polenta",
+    "source": "DJZIXZIO2qp/2025-05-08_12-31-21_UTC.jpg",
+    "sourceSha256": "b4fdcb150b80057646ae682117295ec88b1049e0b204e8e5b447ec324c32b2bd",
+    "output": "public/images/resgatados/resgate-polenta-DJZIXZIO2qp.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-batata",
+    "source": "DJacWCJucBR/2025-05-09_00-45-10_UTC.jpg",
+    "sourceSha256": "a96334187fbd4f9c224feed035469dd175767b488aa8f5b407087c3921249e00",
+    "output": "public/images/resgatados/resgate-batata-DJacWCJucBR.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-mandioca",
+    "source": "DKQoc1PO-S8/2025-05-30_01-49-57_UTC.jpg",
+    "sourceSha256": "8e3be9978b897528b510e44c7b967c0d88163ef39a22cade914143e80fec3bd0",
+    "output": "public/images/resgatados/resgate-mandioca-DKQoc1PO-S8.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-chefinho",
+    "source": "DKhgvgxOb9-/2025-06-05_15-09-41_UTC.jpg",
+    "sourceSha256": "c8e588824d20f16707e94c45ace1d23675ee5b4d709e5206c558e80da4883651",
+    "output": "public/images/resgatados/resgate-chefinho-DKhgvgxOb9-.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-grafite",
+    "source": "DKjzPB7Onfw/2025-06-06_12-29-45_UTC.jpg",
+    "sourceSha256": "da7a05b8df685ea4254bf1fec73ed05834f9eb1ef980d0a2430388026634f8af",
+    "output": "public/images/resgatados/resgate-grafite-DKjzPB7Onfw.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-toquinho",
+    "source": "DKrgNNMOtTU/2025-06-09_12-17-24_UTC.jpg",
+    "sourceSha256": "2a631ee26a4754131c8d8dca476ce298c668ea5b430470fde595a6521984116e",
+    "output": "public/images/resgatados/resgate-toquinho-DKrgNNMOtTU.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-buzz",
+    "source": "DLY0f-dOE4M/2025-06-27_02-40-33_UTC.jpg",
+    "sourceSha256": "8e02ff4eae6e9d6d3bcffb23c5c25b8d4b47930c4174453228e37a9d5ee6120e",
+    "output": "public/images/resgatados/resgate-buzz-DLY0f-dOE4M.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-betty",
+    "source": "DLfpf74O8J4/2025-06-29_18-19-07_UTC.jpg",
+    "sourceSha256": "55c5e3fd3158b60a00031e55fee72fd0b05d5dfea1028ae0af1fd33860cee4f5",
+    "output": "public/images/resgatados/resgate-betty-DLfpf74O8J4.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-woody",
+    "source": "DLhsGWPOrrR/2025-06-30_13-20-19_UTC.jpg",
+    "sourceSha256": "556f40f7b296d562e4e65a5942e62aaf8984ee964d73958334dc43bc1e95f713",
+    "output": "public/images/resgatados/resgate-woody-DLhsGWPOrrR.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-jessy",
+    "source": "DLvEkBjOjyd/2025-07-05_18-04-12_UTC.jpg",
+    "sourceSha256": "098fd803b90b6a57b42399af549050fe6f54eb432e3b15682592bd632083b881",
+    "output": "public/images/resgatados/resgate-jessy-DLvEkBjOjyd.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-molly",
+    "source": "DMEOFtBOkAZ/2025-07-13_23-11-30_UTC.jpg",
+    "sourceSha256": "6a981955dbfe9fd11cb18a20104930733d8765c419e38cd7f2ff0a6acb821eb7",
+    "output": "public/images/resgatados/resgate-molly-DMEOFtBOkAZ.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-ravena",
+    "source": "DMfdTDqOjKR/2025-07-24_13-03-53_UTC.jpg",
+    "sourceSha256": "d5393ebb4e8083fa563e0fa92e8e80e9147656958f1467cbb2aca19796b2aaac",
+    "output": "public/images/resgatados/resgate-ravena-DMfdTDqOjKR.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-perola",
+    "source": "DNMNvROuZgK/2025-08-10_22-13-45_UTC.jpg",
+    "sourceSha256": "5d1c32083572d63ee94d8364b358b544751e4aa5130c4370f74b6428458b4d87",
+    "output": "public/images/resgatados/resgate-perola-DNMNvROuZgK.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-ruby",
+    "source": "DOBo8veDtkK/2025-08-31_16-11-16_UTC.jpg",
+    "sourceSha256": "4247799e6389d145ef166d8ff257b5f6050d52f0642d955ba8863a2b155a646d",
+    "output": "public/images/resgatados/resgate-ruby-DOBo8veDtkK.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-quartzo",
+    "source": "DOCeDP2jpmN/2025-08-31_23-55-17_UTC.jpg",
+    "sourceSha256": "b024a20fb04fcadf788aec752f3d2b9537664cb2eb6216374bb186c1c9ccd1f0",
+    "output": "public/images/resgatados/resgate-quartzo-DOCeDP2jpmN.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-opala",
+    "source": "DOFWvLMjlEC/2025-09-02_02-49-06_UTC.jpg",
+    "sourceSha256": "8279cb713c7f56c1f1c8025e211a2dd11dc9caa466dda753ec130db6ee032017",
+    "output": "public/images/resgatados/resgate-opala-DOFWvLMjlEC.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-bergamota",
+    "source": "DOGpusGDn5p/2025-09-02_14-54-18_UTC.jpg",
+    "sourceSha256": "03cc90b509e5573d1350706c87a4f48e9394cf452e787d65680cd6f3d4be5c3b",
+    "output": "public/images/resgatados/resgate-bergamota-DOGpusGDn5p.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-pitanga",
+    "source": "DOJJxeFDt6r/2025-09-03_14-12-46_UTC.jpg",
+    "sourceSha256": "b089cc7e7e1e8e09e772639e075f55b19271ebd428936e440e01c8f0ff25ff46",
+    "output": "public/images/resgatados/resgate-pitanga-DOJJxeFDt6r.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-goiaba",
+    "source": "DOUGqbqjrri/2025-09-07_20-17-15_UTC.jpg",
+    "sourceSha256": "0e28c8fb11d9bb0d2a818dafd19ee88121c0a8599a7ad37c1d99081ef1f12933",
+    "output": "public/images/resgatados/resgate-goiaba-DOUGqbqjrri.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-brie",
+    "source": "DPmPGe-jrxM/2025-10-09_17-48-42_UTC.jpg",
+    "sourceSha256": "8bfd4182518848aeef82c5c1d509fa26be69e11d693932a8c6a2f9b1a6466b5e",
+    "output": "public/images/resgatados/resgate-brie-DPmPGe-jrxM.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-cabernet",
+    "source": "DQCoNMrjln4/2025-10-20_18-26-49_UTC.jpg",
+    "sourceSha256": "cab44308434c06090c020f4f3e71383776e13902cbbd3139c7dd5a7327dc3dea",
+    "output": "public/images/resgatados/resgate-cabernet-DQCoNMrjln4.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-malbec",
+    "source": "DQE_XpoDnC-/2025-10-21_16-27-42_UTC.jpg",
+    "sourceSha256": "c49ffc2c19e712ecc2fe7b9553f2e660e06735eb417080bee4be8eebd0bbb5ef",
+    "output": "public/images/resgatados/resgate-malbec-DQE_XpoDnC-.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-pinot",
+    "source": "DQKVJ3mDokD/2025-10-23_18-14-15_UTC.jpg",
+    "sourceSha256": "71ff0d8fa210ad048239edb06c1404ac90b39c1c5db09e0de4c97c68d64ae845",
+    "output": "public/images/resgatados/resgate-pinot-DQKVJ3mDokD.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-tannat",
+    "source": "DQNnwzODrPr/2025-10-25_00-54-35_UTC.jpg",
+    "sourceSha256": "ef133c553b94b043734bdcd03a23e5ca389ea8d85c7c0afda0f7cb2ea43e8e72",
+    "output": "public/images/resgatados/resgate-tannat-DQNnwzODrPr.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-coxinha",
+    "source": "DQe5VSjDoxU/2025-10-31_17-55-12_UTC.jpg",
+    "sourceSha256": "afe0c66fef2f236ddcdf9bba9ccab8dbc6102181e9bec1c872d363e482ff5a6b",
+    "output": "public/images/resgatados/resgate-coxinha-DQe5VSjDoxU.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-kibe",
+    "source": "DQuEbV3Dghd/2025-11-06_15-20-45_UTC.jpg",
+    "sourceSha256": "1a7c8f32c49cb32ee02b90787f1461d4f134beedf64b03dde1b4154380f3df7e",
+    "output": "public/images/resgatados/resgate-kibe-DQuEbV3Dghd.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-esfiha",
+    "source": "DQw254_jqjJ/2025-11-07_17-20-19_UTC.jpg",
+    "sourceSha256": "f67a35bf3a686385f87fd7ba9926ce2d5523558418cae01fd70dd3ec6e3e590a",
+    "output": "public/images/resgatados/resgate-esfiha-DQw254_jqjJ.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-croissant",
+    "source": "DQzmdh1Djja/2025-11-08_18-54-21_UTC.jpg",
+    "sourceSha256": "5e6327d0bf8d6e548514120553c465e4321507a3128678aa233b8b732f7b5e05",
+    "output": "public/images/resgatados/resgate-croissant-DQzmdh1Djja.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-margot",
+    "source": "DQ28KsRjphC/2025-11-10_02-01-44_UTC.jpg",
+    "sourceSha256": "35d56a233c6af4e5cf28dc12fab8c2c8b2c1aa673b2b4df3e3cec4389fbfc687",
+    "output": "public/images/resgatados/resgate-margot-DQ28KsRjphC.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-elis",
+    "source": "DQ4nbIojiaN/2025-11-10_17-38-58_UTC.jpg",
+    "sourceSha256": "48d7299ab0fabb9b2b4f834baf81d057051ca0adecff8f7f2c54e6a8b98ca473",
+    "output": "public/images/resgatados/resgate-elis-DQ4nbIojiaN.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-stella",
+    "source": "DQ5dFhwjrPw/2025-11-11_01-27-52_UTC.jpg",
+    "sourceSha256": "bcdd2f560d75b8fd36ca3dfc429eb57d1eadadf7281c2e3cee720cbcc780c941",
+    "output": "public/images/resgatados/resgate-stella-DQ5dFhwjrPw.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-otto",
+    "source": "DQ7bGR2jlHK/2025-11-11_19-48-59_UTC.jpg",
+    "sourceSha256": "abd26d2675733f3e972fd327d5686343943380289a97b2b2c9bde415f8357f77",
+    "output": "public/images/resgatados/resgate-otto-DQ7bGR2jlHK.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-limao",
+    "source": "DQ-bgLhDh52/2025-11-12_23-56-08_UTC.jpg",
+    "sourceSha256": "b52e910285f1470e069d9e3196d636b2b456434bc88dc958f0873da836a2860a",
+    "output": "public/images/resgatados/resgate-limao-DQ-bgLhDh52.webp",
+    "crop": null,
+    "dimensions": [619, 1100]
+  },
+  {
+    "petId": "resgate-pilar",
+    "source": "DQ_6e9xDp3J/2025-11-13_13-40-12_UTC.jpg",
+    "sourceSha256": "b48501c183ba31fa4312186b99e8b66b4e06f25aa4617faed026e5b0093b80f1",
+    "output": "public/images/resgatados/resgate-pilar-DQ_6e9xDp3J.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-florzinha",
+    "source": "DRQ0pqhDn-c/2025-11-20_03-16-19_UTC.jpg",
+    "sourceSha256": "7f290124c54caa48157418df2c37767c7a12dd5fdde00c1c85679bdcfa23f24b",
+    "output": "public/images/resgatados/resgate-florzinha-DRQ0pqhDn-c.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-docinho",
+    "source": "DRTRWILDjuN/2025-11-21_02-05-32_UTC.jpg",
+    "sourceSha256": "1243ffa44f21f6ce3497561badd3b1b6db464c61092cc7e1c1bd1e9c58c7d517",
+    "output": "public/images/resgatados/resgate-docinho-DRTRWILDjuN.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-olga",
+    "source": "DRgEd4DjquL/2025-11-26_01-23-07_UTC.jpg",
+    "sourceSha256": "0585d93a7bf042efc835aed2c8d35eb6b3b5334002e9592f6ee41e60138a6c32",
+    "output": "public/images/resgatados/resgate-olga-DRgEd4DjquL.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-gael",
+    "source": "DSds-ZBDubT/2025-12-19_23-50-46_UTC.jpg",
+    "sourceSha256": "4d526becbdf2f8228bf38dc2c7061ce2bbfed8dfb64481af5811ea4afa3d5fca",
+    "output": "public/images/resgatados/resgate-gael-DSds-ZBDubT.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-agatha",
+    "source": "DSkwt90Dv7e/2025-12-22_17-38-09_UTC.jpg",
+    "sourceSha256": "bdbb172611655c5b7288ee586060bfbb29f2fe7da06ad1edf2e7e82f35e57064",
+    "output": "public/images/resgatados/resgate-agatha-DSkwt90Dv7e.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-lindinho",
+    "source": "DT9JRbHjrWK/2026-01-26_01-25-53_UTC.jpg",
+    "sourceSha256": "540d7ac0d1e6ba7358bb9103b40624537e0ba4efaa81acbb5cf7020e182ae23e",
+    "output": "public/images/resgatados/resgate-lindinho-DT9JRbHjrWK.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-felicia",
+    "source": "DUDvvhzjr5l/2026-01-28_15-00-15_UTC.jpg",
+    "sourceSha256": "a7ea9f58a6866591f5f664ac950ad0ce92705d43268296d4017b3fb22355101c",
+    "output": "public/images/resgatados/resgate-felicia-DUDvvhzjr5l.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-frederico",
+    "source": "DUPPg00Djej/2026-02-02_02-11-28_UTC.jpg",
+    "sourceSha256": "82bec68a0d764143135b93b6145209dd12631c959d72e63d05329a959e5c6abd",
+    "output": "public/images/resgatados/resgate-frederico-DUPPg00Djej.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-flora",
+    "source": "DUQ0JfkDsRw/2026-02-02_16-48-57_UTC.jpg",
+    "sourceSha256": "a54d559c0ad565432b6561809a218d18e62c3970933e3df75c52c7bfbdbceb42",
+    "output": "public/images/resgatados/resgate-flora-DUQ0JfkDsRw.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-frida",
+    "source": "DUQ0zpJjvAw/2026-02-02_16-52-58_UTC.jpg",
+    "sourceSha256": "99a731e7b344f831cab6ddaf0584925c565046a357ffee88e81cd3519556f512",
+    "output": "public/images/resgatados/resgate-frida-DUQ0zpJjvAw.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-flocos",
+    "source": "DUZjja-DhSV/2026-02-06_02-18-25_UTC.jpg",
+    "sourceSha256": "55475a5c4fde11d79dd44b385510b43a17159f42d0b4f0eca083e24246403814",
+    "output": "public/images/resgatados/resgate-flocos-DUZjja-DhSV.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-lua",
+    "source": "DUmq0JkjvLS/2026-02-11_04-30-41_UTC.jpg",
+    "sourceSha256": "06a3fd5a7426f52cc006f1ae017cfc65dc9b998a9dd4e0fcac84668391d095c0",
+    "output": "public/images/resgatados/resgate-lua-DUmq0JkjvLS.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-caroline",
+    "source": "DWWkN4XDraF/2026-03-26_15-27-49_UTC.jpg",
+    "sourceSha256": "c663fc8d24a9826c8338db0874fe65597bbdd1315dde8b1f8572d5ec0aa44438",
+    "output": "public/images/resgatados/resgate-caroline-DWWkN4XDraF.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-isis",
+    "source": "DWpxGGBjni1/2026-04-03_02-23-14_UTC.jpg",
+    "sourceSha256": "ab3652e9897b0745f70dababc543472977698b8459afa6baba912ef176707247",
+    "output": "public/images/resgatados/resgate-isis-DWpxGGBjni1.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-vera",
+    "source": "DWr57dZjkbf/2026-04-03_22-18-54_UTC.jpg",
+    "sourceSha256": "ab1275ec66e08cc1976263bded930ef8cf6c501d935edb4e15b7d59e8fa16174",
+    "output": "public/images/resgatados/resgate-vera-DWr57dZjkbf.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-fiorela",
+    "source": "DXM_Wi3D1F4/2026-04-16_18-47-22_UTC.jpg",
+    "sourceSha256": "33aca8053089de9c04080e20c415477e5768a33654fe490cec2faf12cbc4a5dd",
+    "output": "public/images/resgatados/resgate-fiorela-DXM_Wi3D1F4.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-olivia",
+    "source": "DYsmpCjuOwF/2026-05-23_21-57-39_UTC.jpg",
+    "sourceSha256": "0dc8220e0913e40f6e926ab1e06b03a010a7d28e2174e838d087974d40f0f644",
+    "output": "public/images/resgatados/resgate-olivia-DYsmpCjuOwF.webp",
+    "crop": [0, 521, 1085, 1447],
+    "dimensions": [960, 819]
+  },
+  {
+    "petId": "resgate-sophie",
+    "source": "DZlLWw4vEYm/2026-06-14_21-22-31_UTC.jpg",
+    "sourceSha256": "3c99e5b3eca1760d0eefe74a4b71e1e75ab97d48acbfaf904f81de29ea258650",
+    "output": "public/images/resgatados/resgate-sophie-DZlLWw4vEYm.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  },
+  {
+    "petId": "resgate-chantilly",
+    "source": "Db1lN7LOqDN/2026-08-09_23-22-27_UTC.jpg",
+    "sourceSha256": "b040f0897733f42db3600b094ccee627e7bbf368c8c52cb9fbb1822916646773",
+    "output": "public/images/resgatados/resgate-chantilly-Db1lN7LOqDN.webp",
+    "crop": [312, 312, 1078, 1206],
+    "dimensions": [766, 894]
+  }
+]
