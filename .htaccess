@@ -1,0 +1,8 @@
+Options -Indexes -MultiViews
+DirectoryIndex index.html
+RewriteEngine On
+
+# Serve only the compiled site, keeping repository source files outside the web routes.
+RewriteRule ^$ dist/index.html [L]
+RewriteRule ^dist(?:/|$) - [L]
+RewriteRule ^(.+)$ dist/$1 [L]

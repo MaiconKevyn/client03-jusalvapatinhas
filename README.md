@@ -77,28 +77,33 @@ A importação usa a pasta vizinha `../instagram_tool/downloads` por padrão. Po
 
 ## Publicação na Hostinger via GitHub
 
-Use um **website PHP/HTML comum**, com a integração Git do hPanel. Não é necessário criar uma Web App Node.js.
+Use um **website PHP/HTML comum**, com a integração Git do hPanel. Código-fonte e site compilado ficam juntos na branch **`main`**. Não é necessário criar uma Web App Node.js.
 
-O workflow `.github/workflows/hostinger.yml` valida e compila cada push em `main` usando Node.js 24. Depois, atualiza a branch **`hostinger`** com somente o conteúdo de `dist/`, incluindo `index.html` na raiz. A branch mantém o histórico dos builds e não recebe alterações manuais. Se qualquer validação falhar, o build anterior permanece disponível.
+O diretório `dist/` é versionado e contém o site pronto. O `.htaccess` da raiz direciona as requisições para esse diretório, de modo que o domínio abre o site e os caminhos do código-fonte não ficam acessíveis pela web. A hospedagem precisa processar `.htaccess` e regras de reescrita, como o ambiente PHP/HTML da Hostinger. Em outra hospedagem sem essas regras, configure a raiz pública diretamente para `dist/`.
 
 ### Configuração no hPanel
 
-1. Aguarde o workflow **Prepare Hostinger branch** concluir no GitHub Actions e a branch `hostinger` aparecer.
+1. Aguarde o workflow **Prepare Hostinger on main** concluir no GitHub Actions.
 2. Abra o website `jusalvapatinhas.umbrastudio.com.br` → **Advanced → Git → Continue with GitHub**.
 3. Selecione o repositório `MaiconKevyn/client03-jusalvapatinhas`.
-4. Selecione a branch **`hostinger`**, e não `main`.
-5. Use **`public_html`** como diretório de destino. O `index.html` compilado ficará diretamente nessa pasta.
-6. Clique **Deploy**. Depois confira o status de implantação e a opção de implantação automática para essa branch.
-7. Abra `https://jusalvapatinhas.umbrastudio.com.br` e confirme HTTPS, imagens, busca, favoritos, perfil de um animal e links de adoção/Instagram.
+4. Selecione a branch **`main`** e o diretório de destino **`public_html`**.
+5. Clique **Deploy**. Depois confira o status e a opção de implantação automática dessa branch.
+6. Abra `https://jusalvapatinhas.umbrastudio.com.br` e confirme HTTPS, imagens, busca, favoritos, perfil de um animal e links de adoção/Instagram.
 
-Não há comando de build ou start na Hostinger: o GitHub Actions faz o build antes. Não são necessários upload de ZIP, FTP nem credenciais da Hostinger no repositório. O workflow usa o `GITHUB_TOKEN` automático com permissão de escrita apenas para atualizar a branch compilada. A integração da Hostinger precisa ter acesso ao repositório; a execução bem-sucedida do workflow confirma a preparação da branch, não o deploy no domínio.
+Não há comando de build ou start na Hostinger: ela recebe os arquivos prontos do GitHub. Não são necessários upload de ZIP, FTP nem credenciais da Hostinger no repositório. A antiga branch `hostinger` não é mais atualizada nem necessária para publicar; não a selecione no painel.
 
-O `.htaccess` prioriza `index.html` sobre um eventual `default.php`, desativa listagem de pastas e exige revalidação do HTML para evitar referências antigas aos arquivos compilados. O deploy Git pode substituir arquivos no diretório de destino; use o diretório dedicado a este website.
+O `.htaccess` de `dist/` exige revalidação do HTML para evitar referências antigas aos arquivos compilados. A configuração da raiz impede que um eventual `default.php` substitua o site. O deploy Git pode substituir arquivos no diretório de destino; use o diretório dedicado a este website.
 
 ### Atualizações e recuperação
 
-Edite o código ou o catálogo em `main` e faça push. O Actions atualiza `hostinger`; com a implantação automática ativada no hPanel, a Hostinger publica essa branch. Se necessário, use **Redeploy** no hPanel. Para recompilar sem mudar o código, execute **Run workflow** em `main`. Para recuperar uma versão, reverta a alteração correspondente em `main` e aguarde um novo build, preservando o histórico.
+Edite o código ou o catálogo em `main`, execute `npm run build` e inclua `dist/` no mesmo commit. Isso entrega código e site atualizado juntos.
 
-A estrutura Astro e as interações React continuam disponíveis para melhorias. Banco de dados, autenticação e APIs próprias poderão ser adicionados quando houver necessidade concreta, com a hospedagem apropriada. A rota demonstrativa `/api/health` foi removida porque não existe servidor de aplicação em produção.
+Como proteção para alterações feitas diretamente no GitHub, `.github/workflows/hostinger.yml` executa instalação, lint, formatação e build a cada push em `main`, usando Node.js 24. Se o build alterar `dist/`, o Actions cria um commit adicional na própria `main` com os arquivos compilados. Esse commit usa o `GITHUB_TOKEN` automático com permissão de escrita; ele não dispara outra execução do workflow. A branch nunca recebe force-push. Se houver um commit mais recente durante o build, o workflow deixa a atualização para a execução desse novo commit.
+
+Com implantação automática ativada no hPanel, a Hostinger acompanha a `main`. Quando o build é feito pelo Actions, o conteúdo anterior pode permanecer publicado até o commit dos arquivos compilados ser implantado. Se qualquer validação falhar, o Actions não atualiza `dist/`; consulte os logs antes de publicar uma nova versão. O sucesso do workflow confirma a preparação do repositório, não a publicação no domínio.
+
+Para recompilar sem mudar o código, execute **Run workflow** em `main`. Para recuperar uma versão, reverta a alteração correspondente em `main`, gere o build novamente e faça push. Use **Redeploy** no hPanel se a implantação automática estiver desativada.
+
+A estrutura Astro e as interações React continuam disponíveis para melhorias. Banco de dados, autenticação e APIs próprias poderão ser adicionados quando houver necessidade concreta, com a hospedagem apropriada. Não existe servidor de aplicação em produção.
 
 Referências: [publicação do Astro](https://docs.astro.build/en/guides/deploy/) e [deploy Git na Hostinger](https://www.hostinger.com/support/1583302-how-to-deploy-a-git-repository-in-hostinger/).

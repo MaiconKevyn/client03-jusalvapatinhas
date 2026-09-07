@@ -1,4 +1,4 @@
-name: Prepare Hostinger branch
+name: Prepare Hostinger on main
 
 on:
   push:
@@ -35,24 +35,20 @@ jobs:
           test -d dist/_astro
           test ! -d dist/server
           test ! -d dist/api
-      - name: Update compiled branch
-        env:
-          SOURCE_SHA: ${{ github.sha }}
+      - name: Update compiled site on main
         run: |
-          target="$RUNNER_TEMP/hostinger"
-          if git show-ref --verify --quiet refs/remotes/origin/hostinger; then
-            git worktree add --detach "$target" origin/hostinger
-          else
-            git worktree add --detach "$target" HEAD
-            git -C "$target" checkout --orphan hostinger
-          fi
-          rsync -a --delete --exclude='.git' dist/ "$target/"
-          git -C "$target" config user.name 'github-actions[bot]'
-          git -C "$target" config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git -C "$target" add --all
-          if git -C "$target" diff --cached --quiet; then
+          git add --all dist
+          if git diff --cached --quiet; then
             echo 'Static output is unchanged.'
             exit 0
           fi
-          git -C "$target" commit -m "Build from $SOURCE_SHA"
-          git -C "$target" push origin HEAD:refs/heads/hostinger
+          git fetch origin main
+          if [ "$(git rev-parse HEAD)" != "$(git rev-parse origin/main)" ]; then
+            echo 'A newer main commit exists; its workflow will build the latest source.'
+            exit 0
+          fi
+          source_sha="$(git rev-parse HEAD)"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m "Build from $source_sha [skip ci]"
+          git push origin HEAD:refs/heads/main
