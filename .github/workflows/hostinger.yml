@@ -1,0 +1,58 @@
+name: Prepare Hostinger branch
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hostinger-build
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run format:check
+      - run: npm run build
+      - name: Verify static output
+        run: |
+          test -s dist/index.html
+          test -s dist/.htaccess
+          test -d dist/_astro
+          test ! -d dist/server
+          test ! -d dist/api
+      - name: Update compiled branch
+        env:
+          SOURCE_SHA: ${{ github.sha }}
+        run: |
+          target="$RUNNER_TEMP/hostinger"
+          if git show-ref --verify --quiet refs/remotes/origin/hostinger; then
+            git worktree add --detach "$target" origin/hostinger
+          else
+            git worktree add --detach "$target" HEAD
+            git -C "$target" checkout --orphan hostinger
+          fi
+          rsync -a --delete --exclude='.git' dist/ "$target/"
+          git -C "$target" config user.name 'github-actions[bot]'
+          git -C "$target" config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git -C "$target" add --all
+          if git -C "$target" diff --cached --quiet; then
+            echo 'Static output is unchanged.'
+            exit 0
+          fi
+          git -C "$target" commit -m "Build from $SOURCE_SHA"
+          git -C "$target" push origin HEAD:refs/heads/hostinger

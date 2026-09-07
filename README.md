@@ -1,6 +1,6 @@
 # Ju Salva Patinhas
 
-Interface para o projeto independente Ju Salva Patinhas, de resgate, reabilitação e adoção de cães e gatos em Porto Alegre, RS. Desenvolvida com **Astro 7, React 19, TypeScript e Node.js**, com renderização no servidor (SSR).
+Interface para o projeto independente Ju Salva Patinhas, de resgate, reabilitação e adoção de cães e gatos em Porto Alegre, RS. Desenvolvida com **Astro 7, React 19 e TypeScript**, com páginas geradas durante o build e interações no navegador. Node.js é usado apenas no desenvolvimento e no build; a hospedagem recebe HTML, CSS, JavaScript e imagens.
 
 ## Rodar localmente
 
@@ -15,10 +15,9 @@ Abra http://localhost:5173. O servidor fica restrito à máquina local e usa uma
 
 ```sh
 npm run check    # Validação de Astro e TypeScript
-npm run build    # Validação e build SSR de produção em dist/
+npm run build    # Validação e build estático de produção em dist/
 npm run lint     # Revisão estática dos componentes e hooks
-npm run preview  # Servidor de produção local em http://localhost:4173
-npm start        # Servidor Node.js de produção; aceita HOST e PORT
+npm run preview  # Prévia local do build em http://localhost:4173
 ```
 
 ## O que está implementado
@@ -36,16 +35,16 @@ npm start        # Servidor Node.js de produção; aceita HOST e PORT
 
 ## Conteúdo e integrações pendentes
 
-A aplicação possui servidor Node.js e rotas Astro, com uma rota de saúde em `/api/health`. O catálogo ainda vem de dados versionados; banco de dados, autenticação e painel administrativo não estão implementados. A galeria usa fotos e relatos reais extraídos dos 141 posts e 228 imagens fornecidos pelo cliente. As idades são as informadas nas publicações, com data explícita; dados ausentes não são inventados. A disponibilidade atual deve ser confirmada com o projeto. Animais já adotados não exibem o botão de candidatura no perfil. A adoção segue pelo Google Forms externo. A doação é feita pelo visitante no aplicativo bancário após copiar a chave Pix. O site não envia mensagens, não processa pagamentos e não captura dados pessoais.
+O site publicado não depende de um servidor Node.js nem possui endpoints de API. O catálogo vem de dados versionados; banco de dados, autenticação e painel administrativo não estão implementados. A galeria usa fotos e relatos reais extraídos dos 141 posts e 228 imagens fornecidos pelo cliente. As idades são as informadas nas publicações, com data explícita; dados ausentes não são inventados. A disponibilidade atual deve ser confirmada com o projeto. Animais já adotados não exibem o botão de candidatura no perfil. A adoção segue pelo Google Forms externo. A doação é feita pelo visitante no aplicativo bancário após copiar a chave Pix. O site não envia mensagens, não processa pagamentos e não captura dados pessoais.
 
 Os posts com animais sem identificação individual, vídeos sem foto identificável, tratamentos sem liberação para adoção e campanhas foram documentados na [revisão de cada post](docs/instagram/REVIEW.md). Nove perfis têm conflitos entre legendas editadas e cartinhas de Natal e mostram uma ação para confirmar a situação, sem candidatura direta. O Google Forms redirecionou a verificação sem sessão para login; suas configurações de acesso permanecem sob controle do projeto.
 
 ## Organização
 
-- `astro.config.mjs`: SSR, adapter Node standalone e integração React.
-- `src/pages/`: rotas renderizadas no servidor e endpoints.
+- `astro.config.mjs`: geração estática, domínio canônico e integração React.
+- `src/pages/`: páginas geradas no build.
 - `src/layouts/SiteLayout.astro`: documento HTML, metadados, fontes e estilos.
-- `src/App.tsx`: interface React renderizada no servidor e hidratada no navegador.
+- `src/App.tsx`: interface React renderizada no build e hidratada no navegador.
 - `src/components/`: seções, navegação, galeria e diálogos.
 - `src/data/pets.ts`: exportações do catálogo e perguntas frequentes.
 - `src/data/rescue-catalog.ts`: catálogo real gerado a partir da curadoria.
@@ -78,21 +77,28 @@ A importação usa a pasta vizinha `../instagram_tool/downloads` por padrão. Po
 
 ## Publicação na Hostinger via GitHub
 
-A aplicação precisa de uma **Web App Node.js**. A integração Git de um site PHP/HTML que apenas copia uma branch para `public_html` não executa este servidor.
+Use um **website PHP/HTML comum**, com a integração Git do hPanel. Não é necessário criar uma Web App Node.js.
 
-- Repositório: `MaiconKevyn/client03-jusalvapatinhas`.
-- Branch: `main`.
-- Framework: Astro, com servidor Node.js 24.
-- Instalação: `npm ci`.
-- Build: `npm run build`.
-- Comando de início: `npm start`.
-- Entrada do servidor: `dist/server/entry.mjs`.
-- Arquivos públicos compilados: `dist/client/`, servidos pelo adapter Node.
-- `HOST=0.0.0.0`; `PORT` deve ser a porta fornecida pela hospedagem.
-- Domínio pretendido: `jusalvapatinhas.umbrastudio.com.br`.
+O workflow `.github/workflows/hostinger.yml` valida e compila cada push em `main` usando Node.js 24. Depois, atualiza a branch **`hostinger`** com somente o conteúdo de `dist/`, incluindo `index.html` na raiz. A branch mantém o histórico dos builds e não recebe alterações manuais. Se qualquer validação falhar, o build anterior permanece disponível.
 
-A publicação permanece pausada. O plano consultado atingiu o limite de cinco Web Apps; será necessário disponibilizar uma vaga ou escolher um plano compatível antes de ativar o servidor. Nenhum arquivo foi enviado por upload e nenhuma implantação Git foi disparada no site PHP/HTML criado.
+### Configuração no hPanel
 
-Futuras páginas podem ser adicionadas em `src/pages/`; APIs em `src/pages/api/`. Componentes React continuam disponíveis para funcionalidades interativas. A implementação inicial mantém a interface em uma única ilha React para preservar o estado compartilhado dos diálogos; separar ilhas pode ser feito quando novas páginas justificarem essa mudança.
+1. Aguarde o workflow **Prepare Hostinger branch** concluir no GitHub Actions e a branch `hostinger` aparecer.
+2. Abra o website `jusalvapatinhas.umbrastudio.com.br` → **Advanced → Git → Continue with GitHub**.
+3. Selecione o repositório `MaiconKevyn/client03-jusalvapatinhas`.
+4. Selecione a branch **`hostinger`**, e não `main`.
+5. Use **`public_html`** como diretório de destino. O `index.html` compilado ficará diretamente nessa pasta.
+6. Clique **Deploy**. Depois confira o status de implantação e a opção de implantação automática para essa branch.
+7. Abra `https://jusalvapatinhas.umbrastudio.com.br` e confirme HTTPS, imagens, busca, favoritos, perfil de um animal e links de adoção/Instagram.
 
-Referências: [adapter Node do Astro](https://docs.astro.build/en/guides/integrations-guide/node/) e [aplicações Node.js na Hostinger](https://www.hostinger.com/support/how-to-deploy-a-nodejs-website-in-hostinger/).
+Não há comando de build ou start na Hostinger: o GitHub Actions faz o build antes. Não são necessários upload de ZIP, FTP nem credenciais da Hostinger no repositório. O workflow usa o `GITHUB_TOKEN` automático com permissão de escrita apenas para atualizar a branch compilada. A integração da Hostinger precisa ter acesso ao repositório; a execução bem-sucedida do workflow confirma a preparação da branch, não o deploy no domínio.
+
+O `.htaccess` prioriza `index.html` sobre um eventual `default.php`, desativa listagem de pastas e exige revalidação do HTML para evitar referências antigas aos arquivos compilados. O deploy Git pode substituir arquivos no diretório de destino; use o diretório dedicado a este website.
+
+### Atualizações e recuperação
+
+Edite o código ou o catálogo em `main` e faça push. O Actions atualiza `hostinger`; com a implantação automática ativada no hPanel, a Hostinger publica essa branch. Se necessário, use **Redeploy** no hPanel. Para recompilar sem mudar o código, execute **Run workflow** em `main`. Para recuperar uma versão, reverta a alteração correspondente em `main` e aguarde um novo build, preservando o histórico.
+
+A estrutura Astro e as interações React continuam disponíveis para melhorias. Banco de dados, autenticação e APIs próprias poderão ser adicionados quando houver necessidade concreta, com a hospedagem apropriada. A rota demonstrativa `/api/health` foi removida porque não existe servidor de aplicação em produção.
+
+Referências: [publicação do Astro](https://docs.astro.build/en/guides/deploy/) e [deploy Git na Hostinger](https://www.hostinger.com/support/1583302-how-to-deploy-a-git-repository-in-hostinger/).
